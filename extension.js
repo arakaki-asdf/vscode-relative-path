@@ -3,7 +3,7 @@ const { getRelativePath } = require('./commands/getRelativePath.js');
 
 function activate(context) {
 
-  const disposable1 = vscode.commands.registerCommand('arakaki1992.relative-path', async function () {
+  const disposable1 = vscode.commands.registerCommand('arakaki-asdf.relative-path', async function () {
     await getRelativePath();
   });
 

@@ -3,6 +3,11 @@
   "name": "relative-path",
   "displayName": "relative-path",
   "description": "windows プロジェクトからの相対パス取得",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arakaki-asdf/vscode-relative-path.git" 
+  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.101.0"
@@ -15,7 +20,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "arakaki1992.relative-path",
+        "command": "arakaki-asdf.relative-path",
         "title": "relative path"
       }
     ]
