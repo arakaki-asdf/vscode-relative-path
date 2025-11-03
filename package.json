@@ -1,8 +1,9 @@
 {
+  "publisher": "Hayate Arakaki",
   "name": "relative-path",
   "displayName": "relative-path",
-  "description": "",
-  "version": "0.0.1",
+  "description": "windows プロジェクトからの相対パス取得",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -14,8 +15,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "relative-path.arakaki",
-        "title": "relative-path"
+        "command": "arakaki1992.relative-path",
+        "title": "relative path"
       }
     ]
   },
